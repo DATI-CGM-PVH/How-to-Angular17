@@ -68,4 +68,76 @@ ng serve --open
 
 Se tudo estiver correto, você verá a página inicial do seu aplicativo Angular.
 
-## TODO...
+### Criando Componentes no Angular
+
+Para criar um componente:
+
+1. No terminal, digite:
+```
+   ng g c nome-do-componente
+```
+2. Para criar dentro de uma pasta específica:
+```
+   ng g c pasta/nome-do-componente
+```
+
+### Criando Serviços
+
+Para criar um serviço:
+
+1. No terminal, digite:
+```
+   ng g s nome-do-servico
+```
+
+### Gerenciamento de Módulos
+
+Para criar um módulo:
+
+1. Use o comando:
+```
+   ng g m nome-do-modulo
+```
+
+### Rotas e Navegação
+
+1. Configure rotas em `app-routing.module.ts`.
+2. Use `<router-outlet></router-outlet>` no template.
+
+### Construindo e Deploy
+
+Para construir sua aplicação para produção:
+
+1. Execute:
+```
+   ng build --prod
+```
+
+## Guia de Implantação no Netlify
+
+### Pré-requisitos
+
+- Uma aplicação Angular construída.
+- Uma conta no Netlify.
+
+### Passos para Implantação
+
+1. Construa sua aplicação Angular para produção:
+```
+   ng build --prod
+```
+2. No Netlify, clique em “New site from Git”.
+3. Configure as opções de build:
+- **Publish directory**: `dist/nome-do-seu-projeto`
+
+### Configurações Adicionais
+
+- **Custom Domain**: Adicione um domínio personalizado nas configurações do site.
+- **Redirects**: Crie um arquivo `_redirects` com:
+```
+  /* /index.html 200
+```
+
+### Atualizações Futuras
+
+- Faça push das alterações para o repositório Git para atualizar o site no N
