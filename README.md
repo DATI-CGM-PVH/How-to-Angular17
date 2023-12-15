@@ -14,8 +14,8 @@ Antes de começar, é importante estar familiarizado com:
 Conhecimento em TypeScript é útil, mas não obrigatório.
 
 Você também precisará:
-
-- **Node.js**: Angular requer uma versão LTS ativa ou LTS de manutenção do Node.js. Para mais informações, veja [aqui](https://nodejs.org/). Verifique a versão do Node.js em seu sistema com:
+- **Baixe e Instale o NodeJS LTS**: Para mais informações, veja [nodejs.org](https://nodejs.org/).
+- **Node.js**: Angular requer uma versão LTS ativa ou LTS de manutenção do Node.js. Verifique a versão do Node.js em seu sistema com:
 ```
 node -v
 ```
