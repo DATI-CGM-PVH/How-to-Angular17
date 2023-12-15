@@ -113,7 +113,7 @@ Para construir sua aplicação para produção:
    ng build --prod
 ```
 
-## Guia de Implantação no Netlify
+# Guia de Implantação no Netlify
 
 ### Pré-requisitos
 
