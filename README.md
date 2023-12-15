@@ -140,4 +140,4 @@ Para construir sua aplicação para produção:
 
 ### Atualizações Futuras
 
-- Faça push das alterações para o repositório Git para atualizar o site no N
+- Faça push das alterações para o repositório Git para atualizar o site no Netlify
